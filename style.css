@@ -13,6 +13,16 @@ body {
     scroll-behavior: smooth;
 }
 
+#button a{
+    padding: 12px 20px;
+    margin-top: 15px;
+    background: #1e272e;  /* Dark button background */
+    color: #ecf0f1;  /* Light button text */
+    border-radius: 30px;
+    border: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
 a {
     text-decoration: none;
     color: #3498db;  /* Blue links */
@@ -110,7 +120,7 @@ main {
     transition: background 0.3s ease, transform 0.3s ease;
 }
 
-#button button:hover {
+#button a:hover {
     background: #3498db;  /* Light blue button on hover */
     color: #fff;
     transform: translateY(-5px);
